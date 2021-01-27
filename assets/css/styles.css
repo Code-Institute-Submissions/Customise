@@ -1,16 +1,72 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@700&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* ---------------------------------------general */
+*,*:focus,*:hover{
+    outline:none !important;
+}
 
+p{
+    font-family: Montserrat;
+    color: rgb(29, 29, 29);
+}
 
 
 /* ---------------------------------------general nav*/
 
+.navbar {
+    height: 100px;
+    z-index: 3;
+}
+
+.navbar-brand{
+    font-family: Expletus Sans;
+    font-size: 200%;
+}
+
+.toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-collapse{
+    font-size: 110%;
+    font-family:Montserrat ;
+    padding-top: 2px;
+}
 
 
 
 
 /* ---------------------------------------buttons */
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    /* background-color:  #6200EE; */
+    border: 2px solid ;
+    /* color:white; */
+    letter-spacing: 3px;
+}
+
+.button1:hover {
+    background-color:transparent;
+     border: 2px solid;
+    /* color: #6200EE;  */
+    letter-spacing: 3px;
+}
+
 
 
 
