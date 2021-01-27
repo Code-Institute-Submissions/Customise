@@ -34,6 +34,30 @@ Interactive Frontend Development Milestone Project
 
 ## UX
 
+1. Project Goals
+
+* The main goal for Customise.ie is to provide the user with a customisable website that shows off what customize are capable of doing while also allowing the user to contact the Customise team and also with the google map api the user can see where the companys many hubs are based.also the website will be customisable with a dark and light mode feature and a side nav which can change the colour theme of many of the buttons and features throughout the website, it will also consisit of small customisable parts where the shape and text font can be changed . most important these changes will be saved to the local storage so next time the custom set is remembered 
+
+2. Goals of Business
+
+* The main goal for the business is to direct the user to the contact section where they can pick a package and get in touch with a member of staff at Customize and organize creating a website togeather. 
+
+* client stories
+
+    1. As a new visitor to the website I want to navigate the site with ease and no confusion.
+
+    2. As a new visitor to the website I want to be able to contact customise about a project and recieve an email of confirmatrion.
+
+    3. As a new visitor to the website I want to be able to view where customise is based and see where there situated on the map.
+
+    4. As a new visitor to the website I want to be able to read about customise in thier about section.
+    
+    5. As a user I want to easily be able to customize the website and use its interesting colour theme features with ease and no confusion.
+    
+    6. As a user I want to easily be able to switch from dark to light mode with ease.
+    
+    7. As a user I want to easily be able to change some of the fonts and styles on the click of a button.
+
 ## Features
 
 ## Technologies
