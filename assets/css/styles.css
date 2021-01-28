@@ -50,6 +50,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
+    position: sticky;
 }
 
 .lowernav .row{
@@ -65,29 +66,24 @@
     justify-content: center;
 }
 
+/* --------------------------------------------- */
+
+
+
 
 /* ---------------------------------------general header*/
-
-.jumbotron {
+.bottom {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    background-color: transparent;
-    z-index: 3;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.jumbotron-header{
-    font-family: Expletus Sans;
-    font-size: 400%;
-}
+  }
 
-.header-btn{
-    padding-top: 20px;
-}
-
-.lowernav a{
-    text-decoration: none;
-    font-size: 120%;
-    font-family: Montserrat;
-}
 
 
 /* ---------------------------------------buttons */
@@ -113,6 +109,18 @@
     letter-spacing: 3px;
 }
 
+.button2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 
 /* ---------------------------------------colours */
 
@@ -128,32 +136,16 @@
         display: inline-flex;
     }
 
-    .lowernav{
-        background-color: rgb(245, 245, 245);
-        display: block;
-    }
-
     .navbar {
-        background-color: rgb(245, 245, 245);
+        background-color: rgba(245, 245, 245, 0);
     }
 
-    .jumbotron-header{
-        font-family: Expletus Sans;
-        font-size: 300%;
-    }
-
-    .jumbotron{
-        padding-top: 100px;
-    }
-
-
-    
    
     /* ---------------------------------------header sm */
 
     
 
-    
+
 
     /* ---------------------------------------about sm */
 
@@ -186,6 +178,16 @@
 
     /* ---------------------------------------header md */
 
+    .jumbotron {
+        width: 100%;
+        background-color: transparent;
+        z-index: 3;
+    }
+    
+    .jumbotron-header{
+        font-family: Expletus Sans;
+        font-size: 400%;
+    }
     
 
     /* ---------------------------------------about md */
