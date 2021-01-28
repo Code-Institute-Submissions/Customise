@@ -1,21 +1,24 @@
+
+
 /* ---------------------------------------colours */
-
-.light{
-    color: #6200EE;
-}
-
-.light-heading{
-    color:rgb(41, 41, 41);
-}
-
-p{
-    font-family: Montserrat;
-    color: rgb(29, 29, 29);
-}
-
-.light-background{
+html{
     background-color: white;
 }
 
+.secondarybglight{
+    background-color:transparent;
+}
+
 /* ---------------------------------------buttons */
+
+.bluebtn{
+    background-color: #6200EE ;
+    border: solid 2px #6200EE;
+    color: white;
+}
+
+.bluebtn:hover{
+    border: solid 2px #6200EE;
+    color: #6200EE;
+}
 

@@ -9,28 +9,32 @@
 
 /* ---------------------------------------general nav*/
 
+#button-right{
+    padding-right: 30px;
+}
+
 .navbar {
-    height: 100px;
-    z-index: 3;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .navbar-brand{
-    font-family: Expletus Sans;
     font-size: 200%;
+    font-family: Expletus Sans;
 }
 
-.toggle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar-toggler{
+    border: none;
 }
 
-.navbar-collapse{
-    font-size: 110%;
-    font-family:Montserrat ;
-    padding-top: 2px;
+.navbar-toggler{
+    border: none;
 }
 
+.navbar-toggler:focus{
+    border: none !important;
+    box-shadow: none;
+}
 
 
 
@@ -49,34 +53,27 @@
 }
 
 .button1 {
-    /* background-color:  #6200EE; */
-    border: 2px solid ;
-    /* color:white; */
     letter-spacing: 3px;
 }
 
 .button1:hover {
-    background-color:transparent;
-     border: 2px solid;
-    /* color: #6200EE;  */
+    background-color: transparent;
     letter-spacing: 3px;
 }
-
-
-
 
 
 
 /* ---------------------------------------colours */
 
 
-
-
-
-
 @media (min-width: 200px) {
     /* ---------------------------------------nav sm */
 
+    #button-right{
+        display: none;
+    }
+
+    
    
     /* ---------------------------------------header sm */
 
@@ -109,7 +106,7 @@
 
     /* ---------------------------------------nav md */
 
-   
+
 
     
 
@@ -141,6 +138,12 @@
 @media (min-width: 1000px) {
     
     /* ---------------------------------------nav lg */
+
+    #button-right{
+        display: block;
+    }
+
+    
 
 
     /* ---------------------------------------head lg */

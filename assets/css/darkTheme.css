@@ -1,16 +1,21 @@
+
+
 /* ---------------------------------------colours */
-
-body{
-    background-color: #0c0b10;
+html{
+    background-color: black;
 }
 
-p{
-    font-family: Montserrat;
-    color: rgb(255, 255, 255);
-}
-
-.dark-background{
-    background-color: rgba(44, 44, 44, 0.836);
-}
 
 /* ---------------------------------------buttons */
+
+.bluebtn{
+    background-color: #6200EE ;
+    border: solid 2px #6200EE;
+    color: white;
+}
+
+.bluebtn:hover{
+    border: solid 2px #6200EE;
+    color: #6200EE;
+}
+

@@ -3,6 +3,7 @@ const btn = document.querySelector(".colorChange");
 
 const theme = document.querySelector("#theme-link");
 
+
 btn.addEventListener("click", function() {
   
   if (theme.getAttribute("href") == "assets/css/lightTheme.css") {
@@ -14,3 +15,4 @@ btn.addEventListener("click", function() {
     theme.href = "assets/css/lightTheme.css";
   }
 });
+
