@@ -9,6 +9,18 @@ html{
     background-color:transparent;
 }
 
+.p-light{
+    color: rgb(32, 32, 32)  !important;
+}
+
+.p-lighter{
+    color: rgba(32, 32, 32, 0.452)  !important;
+}
+
+.blue{
+    color: #6200EE ;
+}
+
 /* ---------------------------------------buttons */
 
 .bluebtn{
@@ -20,5 +32,26 @@ html{
 .bluebtn:hover{
     border: solid 2px #6200EE;
     color: #6200EE;
+}
+
+
+/* ---------------------------------------imgs */
+
+.callout-container {
+    height: 100vh;
+
+    background: url("C:/code institute/Customize.ie/Customize.ie/assets/img/White Background.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 

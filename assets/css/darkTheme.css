@@ -1,17 +1,41 @@
 
 
 /* ---------------------------------------colours */
+
+/* .opaque-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    
+}  */
+
 html{
     background-color: black;
 }
 
+.p-dark{
+    color: white !important;
 
+}
+
+.blue{
+    color: #6200EE ;
+}
+
+.p-darker{
+    color: rgba(253, 253, 253, 0.62)  !important;
+    font-weight: 300;
+}
 /* ---------------------------------------buttons */
 
 .bluebtn{
     background-color: #6200EE ;
     border: solid 2px #6200EE;
-    color: white;
+    color: rgb(32, 32, 32);
 }
 
 .bluebtn:hover{
@@ -19,3 +43,22 @@ html{
     color: #6200EE;
 }
 
+/* ---------------------------------------imgs */
+
+.callout-container {
+    height: 100vh;
+
+    background: url("C:/code institute/Customize.ie/Customize.ie/assets/img/VECTEEZY_BLACK_BACKGROUND_PS1120.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
