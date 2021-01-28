@@ -17,6 +17,10 @@ html{
     background-color: black;
 }
 
+.secondarybgdark{
+    background-color: rgb(54, 54, 54) !important;
+}
+
 .p-dark{
     color: white !important;
 
@@ -35,12 +39,45 @@ html{
 .bluebtn{
     background-color: #6200EE ;
     border: solid 2px #6200EE;
-    color: rgb(32, 32, 32);
+    color: black;
 }
 
 .bluebtn:hover{
     border: solid 2px #6200EE;
     color: #6200EE;
+}
+
+.redbtn{
+    background-color: #b00020 ;
+    border: solid 2px #b00020;
+    color: white;
+}
+
+.redbtn:hover{
+    border: solid 2px #b00020;
+    color: #b00020;
+}
+
+.greenbtn{
+    background-color: #03dac6 ;
+    border: solid 2px #03dac6;
+    color: white;
+}
+
+.greenbtn:hover{
+    border: solid 2px #03dac6;
+    color: #03dac6;
+}
+
+.purplebtn{
+    background-color: #bb86fc ;
+    border: solid 2px #bb86fc;
+    color: white;
+}
+
+.purplebtn:hover{
+    border: solid 2px #bb86fc;
+    color: #bb86fc;
 }
 
 /* ---------------------------------------imgs */
