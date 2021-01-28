@@ -1,4 +1,21 @@
 /* ---------------------------------------colours */
 
+.light{
+    color: #6200EE;
+}
+
+.light-heading{
+    color:rgb(41, 41, 41);
+}
+
+p{
+    font-family: Montserrat;
+    color: rgb(29, 29, 29);
+}
+
+.light-background{
+    background-color: white;
+}
+
 /* ---------------------------------------buttons */
 
