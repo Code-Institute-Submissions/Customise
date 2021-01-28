@@ -44,6 +44,28 @@
     box-shadow: none;
 }
 
+.lowernav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.lowernav .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowernav .col{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* ---------------------------------------general header*/
 
 .jumbotron {
@@ -59,6 +81,12 @@
 
 .header-btn{
     padding-top: 20px;
+}
+
+.lowernav a{
+    text-decoration: none;
+    font-size: 120%;
+    font-family: Montserrat;
 }
 
 
@@ -86,8 +114,6 @@
 }
 
 
-
-
 /* ---------------------------------------colours */
 
 
@@ -97,6 +123,29 @@
     #button-right{
         display: none;
     }
+
+    .navbar ul{
+        display: inline-flex;
+    }
+
+    .lowernav{
+        background-color: rgb(245, 245, 245);
+        display: block;
+    }
+
+    .navbar {
+        background-color: rgb(245, 245, 245);
+    }
+
+    .jumbotron-header{
+        font-family: Expletus Sans;
+        font-size: 300%;
+    }
+
+    .jumbotron{
+        padding-top: 100px;
+    }
+
 
     
    
@@ -166,6 +215,14 @@
 
     #button-right{
         display: block;
+    }
+
+    .lowernav{
+        display: none;
+    }
+
+    .navbar {
+        background-color: transparent;
     }
 
     
