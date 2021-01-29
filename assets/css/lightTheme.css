@@ -1,10 +1,13 @@
 
 
 /* ---------------------------------------colours */
-html{
+body{
     background-color: white;
 }
 
+.bglight{
+    background-color:#ffffff !important;
+}
 
 
 .p-light{
@@ -17,6 +20,10 @@ html{
 
 .blue{
     color: #6200EE ;
+}
+
+.navbar-toggler-icon{
+    color: black !important;
 }
 
 

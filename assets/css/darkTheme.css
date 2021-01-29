@@ -13,8 +13,12 @@
     
 }  */
 
-html{
-    background-color: black;
+body{
+    background-color: rgb(17 17 17);
+}
+
+.bgdark{
+    background-color:rgb(17 17 17) !important;
 }
 
 
@@ -31,6 +35,12 @@ html{
     color: rgba(253, 253, 253, 0.62)  !important;
     font-weight: 300;
 }
+
+
+.navbar-toggler-icon{
+    color: rgb(255, 255, 255) !important;
+}
+
 /* ---------------------------------------buttons */
 
 .bluebtn{
@@ -47,7 +57,7 @@ html{
 .redbtn{
     background-color: #b00020 ;
     border: solid 2px #b00020;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .redbtn:hover{
@@ -58,7 +68,7 @@ html{
 .greenbtn{
     background-color: #03dac6 ;
     border: solid 2px #03dac6;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .greenbtn:hover{
@@ -69,7 +79,7 @@ html{
 .purplebtn{
     background-color: #bb86fc ;
     border: solid 2px #bb86fc;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .purplebtn:hover{

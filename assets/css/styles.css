@@ -6,6 +6,18 @@
     outline:none !important;
 }
 
+h1{
+    font-family:Expletus Sans ;
+    font-size: 400%;
+}
+
+p{
+    font-family:Montserrat ;
+}
+
+a{
+    font-family:Montserrat ;
+}
 
 /* ---------------------------------------general nav*/
 
@@ -88,8 +100,8 @@
       position: fixed;
       bottom: 0;
       right: 0;
-      padding-bottom: 30px;
-      padding-right: 30px;
+      padding-bottom: 15px;
+      padding-right: 40px;
       z-index: 3;
 
 
@@ -115,22 +127,22 @@
 }
 
 .button1 {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .button1:hover {
     background-color: transparent;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .spbutton{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     vertical-align: middle;
-    font-weight: 400;
-    letter-spacing: 3px;
+    font-weight: 500;
+    letter-spacing: 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     margin:10px
@@ -139,10 +151,23 @@
 
 
 
-/* ---------------------------------------colours */
-
-
 @media (min-width: 200px) {
+
+    h1{
+        
+        font-size: 200%;
+    }
+    
+    p{
+        
+        font-size: 50%;
+    }
+    
+    a{
+        
+        font-size: 50%;
+    }
+
     /* ---------------------------------------nav sm */
 
     #button-right{
@@ -157,10 +182,6 @@
         background-color: rgba(245, 245, 245, 0);
     }
 
-    /* .bottom{
-        display: block;
-    } */
-
    
     /* ---------------------------------------header sm */
 
@@ -173,6 +194,13 @@
     /* ---------------------------------------about sm */
     .about-div{
         margin-top: 100vh;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .redimg{
+        display: none;
     }
 
 
@@ -194,6 +222,22 @@
 
    
 @media (min-width: 580px) {
+
+    h1{
+        
+        font-size: 400%;
+    }
+    
+    p{
+        
+        font-size: 100%;
+    }
+    
+    a{
+        
+        font-size: 100%;
+    }
+
 
     /* ---------------------------------------nav md */
 
@@ -224,6 +268,24 @@
     
 
     /* ---------------------------------------about md */
+
+    .about-div{
+        margin-top: 100vh;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .redimg{
+        width: 400px;
+        height: 500px;
+        display: block;
+    }
+
+    .rightside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
    
 
@@ -268,6 +330,10 @@
 
 
     /* ---------------------------------------about lg */
+
+    .about-div{
+        text-align: left;
+    }
 
   
 
