@@ -11,12 +11,23 @@ h1{
     font-size: 400%;
 }
 
+h3{
+    font-family:Expletus Sans ;
+    font-size: 200%;
+}
+
 p{
     font-family:Montserrat ;
 }
 
 a{
     font-family:Montserrat ;
+}
+
+hr{
+    border: 2px solid;
+    width: 50%;
+    opacity: 1;
 }
 
 /* ---------------------------------------general nav*/
@@ -156,6 +167,11 @@ a{
     h1{
         
         font-size: 200%;
+    }
+
+    h3{
+        
+        font-size: 100%;
     }
     
     p{
