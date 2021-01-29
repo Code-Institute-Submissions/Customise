@@ -95,6 +95,9 @@
 
   }
 
+  .callout-container{
+      height: 100vh;
+  }
 
 
 /* ---------------------------------------buttons */
@@ -154,10 +157,6 @@
         background-color: rgba(245, 245, 245, 0);
     }
 
-    .displaybuttons{
-        display: none;
-    }
-
     /* .bottom{
         display: block;
     } */
@@ -165,12 +164,16 @@
    
     /* ---------------------------------------header sm */
 
-    
+    .displaybuttons{
+        display: none;
+    }
 
 
 
     /* ---------------------------------------about sm */
-
+    .about-div{
+        margin-top: 100vh;
+    }
 
 
     /* ---------------------------------------3 key words sm */
