@@ -17,9 +17,6 @@ html{
     background-color: black;
 }
 
-.secondarybgdark{
-    background-color: rgb(54, 54, 54) !important;
-}
 
 .p-dark{
     color: white !important;
@@ -98,4 +95,21 @@ html{
     position: absolute;
     top: 0;
     z-index: 1;
+}
+
+
+@media (min-width: 200px) {
+
+    /* ---------------------------------------nav sm*/
+    .secondarybgdark{
+        background-color:rgb(17 17 17) !important;
+    }
+}
+
+@media (min-width: 570px) {
+
+    /* ---------------------------------------nav md*/
+    .secondarybgdark{
+        background-color: transparent !important;
+    }
 }

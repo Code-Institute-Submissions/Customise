@@ -5,9 +5,7 @@ html{
     background-color: white;
 }
 
-.secondarybglight{
-    background-color:#f5f5f5 !important;
-}
+
 
 .p-light{
     color: rgb(32, 32, 32)  !important;
@@ -87,5 +85,18 @@ html{
     position: absolute;
     top: 0;
     z-index: 1;
+}
+
+
+@media (min-width: 200px) {
+    .secondarybglight{
+        background-color:#ffffff !important;
+    }
+}
+
+@media (min-width: 570px) {
+    .secondarybglight{
+        background-color:#ffffff00 !important;
+    }
 }
 

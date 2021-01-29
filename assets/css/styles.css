@@ -80,6 +80,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 3;
+
+  }
+
+  .displaybuttons{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      padding-bottom: 30px;
+      padding-right: 30px;
+      z-index: 3;
+
 
   }
 
@@ -142,6 +154,14 @@
         background-color: rgba(245, 245, 245, 0);
     }
 
+    .displaybuttons{
+        display: none;
+    }
+
+    /* .bottom{
+        display: block;
+    } */
+
    
     /* ---------------------------------------header sm */
 
@@ -190,6 +210,14 @@
         font-family: Expletus Sans;
         font-size: 400%;
     }
+
+    .displaybuttons{
+        display: block;
+    }
+
+   .bottom{
+        display: none;
+    } 
     
 
     /* ---------------------------------------about md */
