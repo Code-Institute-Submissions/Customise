@@ -176,7 +176,7 @@ hr{
     
     p{
         
-        font-size: 50%;
+        font-size: 80%;
     }
     
     a{
@@ -222,7 +222,20 @@ hr{
 
     /* ---------------------------------------3 key words sm */
 
+    .description{
+        width: 80%;
+        margin: auto;
+    }
+
+    .three-key-words{
+        margin-top: 100px;
+        margin-bottom: 100px;
+       
+    }
    
+    .center{
+        text-align: center;
+    }
 
     /* ---------------------------------------packages sm */
 
@@ -243,10 +256,15 @@ hr{
         
         font-size: 400%;
     }
+
+    h3{
+        
+        font-size: 200%;
+    }
     
     p{
         
-        font-size: 100%;
+        font-size: 20px;
     }
     
     a{
@@ -307,6 +325,16 @@ hr{
 
     /* ---------------------------------------3 key words md */
 
+    .three-key-words{
+        margin-top: 200px;
+        margin-bottom: 200px;
+        text-align: left;
+    }
+
+    .box{
+        text-align: center;
+    }
+   
    
 
     /* ---------------------------------------packages md */
