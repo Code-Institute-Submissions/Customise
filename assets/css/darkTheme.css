@@ -41,6 +41,10 @@ body{
     color: rgb(255, 255, 255) !important;
 }
 
+.lightdark{
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
 /* ---------------------------------------buttons */
 
 .bluebtn{
