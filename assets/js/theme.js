@@ -9,6 +9,7 @@ btn.addEventListener("click", function() {
   if (theme.getAttribute("href") == "assets/css/lightTheme.css") {
     
     theme.href = "assets/css/darkTheme.css";
+
   
   } else {
     

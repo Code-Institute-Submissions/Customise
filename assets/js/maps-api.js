@@ -7,7 +7,8 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 4,
       center: dublin,
-      mapId: "d4b44cdc72180b83"
+      mapId: "d4b44cdc72180b83",
+      
     });
     // The marker, positioned at Uluru
     const marker = new google.maps.Marker({
