@@ -28,6 +28,8 @@ hr{
     border: 2px solid;
     width: 50%;
     opacity: 1;
+    opacity: 1;
+    margin: 20px auto;
 }
 
 /* ---------------------------------------general nav*/
@@ -235,6 +237,10 @@ hr{
    
     .center{
         text-align: center;
+    }
+
+    .threekeybuttons{
+        margin: 20px auto;
     }
 
     /* ---------------------------------------packages sm */
