@@ -5,8 +5,8 @@ function initMap() {
     const dublin = { lat: 53.3498, lng:-6.2603 };
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 6,
-      center: dublin,
+      zoom: 3,
+      center: { lat: 53.3498, lng:-25.2603 },
       mapId: "d4b44cdc72180b83",
       
     });
@@ -20,8 +20,8 @@ function initMap() {
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
-      { lat : 40.785091, lng: -73.968285},
-      { lat : 41.085091, lng: -73.988285},
+      { lat : 48.8566, lng: 2.3522},
+      { lat : 51.5074, lng: 0.1278},
       { lat : 40.755091, lng: -73.878285}
 
     ]
