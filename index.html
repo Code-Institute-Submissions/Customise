@@ -205,11 +205,12 @@
                 </div>
                 <div class="row">
                     <div class="col formcol">
-                        <form class="formmain">
+                        <form class="formmain" id="form" onsubmit="return sendMail(this);" method="POST">
                             <input type="text" name="name" class="bluebr formborder name" id="name" placeholder="Full name" required><br>
                             <input type="text" name="email" class="bluebr formborder email" id="email" placeholder="Email" required><br>
                             <textarea rows="2" name="projectsummary" class="bluebr formborder textarea" id="projectsummary" placeholder="Tell us about your project" required></textarea><br>
-                            <button type="submit" class="bluebtn button button1" >Send</button><br>
+                            <button id="submitButton" type="submit" class="bluebtn button button1" >Send</button><br>
+                            <p class="response"></p>
                             
                         </form>
                     </div>
@@ -242,5 +243,9 @@
     <script src="C:\code institute\customise\Customise\assets\js\maps-api.js" ></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf12UYkEOC2D6_SYszJJWLzMMjjs0hNDA&map_ids=d4b44cdc72180b83&callback=initMap"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript" src="assets\js\contact.js" ></script>
   </body>
 </html>

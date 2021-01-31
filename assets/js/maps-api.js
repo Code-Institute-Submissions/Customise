@@ -1,5 +1,5 @@
 
-debugger;
+
 function initMap() {
     // The location of dublin
     const dublin = { lat: 53.3498, lng:-6.2603 };
