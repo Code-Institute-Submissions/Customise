@@ -1,12 +1,14 @@
 
-
+debugger;
 function initMap() {
-    // The location of Uluru
+    // The location of dublin
     const dublin = { lat: 53.3498, lng:-6.2603 };
-    // The map, centered at Uluru
+
+    let atlantic = { lat: 53.3498, lng:-25.2603 };
+    // The map, centered at atlantic ocean
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
-      center: { lat: 53.3498, lng:-25.2603 },
+      center: atlantic,
       mapId: "d4b44cdc72180b83",
       
     });

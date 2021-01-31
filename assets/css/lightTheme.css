@@ -1,6 +1,12 @@
 
 
 /* ---------------------------------------colours */
+
+.navbar.trigger {
+    transition: 750ms ease;
+    background: rgb(255, 255, 255) !important;
+}
+
 body{
     background-color: white;
 }
