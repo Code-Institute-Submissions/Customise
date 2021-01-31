@@ -77,6 +77,34 @@ body{
     color: #bb86fc;
 }
 
+.bluebr{
+    border-bottom:solid 3px #6200EE;
+    color: rgb(37, 37, 37);
+}
+
+
+.redbr{
+   
+    border: solid 3px #b00020;
+    color: rgb(37, 37, 37);;
+}
+
+
+.greenbr{
+    
+    border: solid 3px #03dac6;
+    color: rgb(37, 37, 37);;
+}
+
+
+.purplebr{
+   
+    border: solid 3px #bb86fc;
+    color: rgb(37, 37, 37);;
+}
+
+
+
 
 /* ---------------------------------------imgs */
 
