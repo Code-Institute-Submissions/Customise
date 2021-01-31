@@ -344,6 +344,44 @@ hr{
 
     /* ---------------------------------------contact sm */
 
+    .formcol{
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width:500px;
+        
+    }
+
+    .formborder{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 200px;
+        background-color: transparent;
+        padding: 5px;
+        
+    }
+
+    .textarea{
+        margin: 20px;
+    }
+
+    .email{
+        margin: 10px;
+    }
+
+    .name{
+        margin: 10px;
+    }
+
+    .formmain{
+        font-family: Montserrat;
+    }
+
+    .headformcol{
+        text-align: center;
+    }
+
 }
 
    
