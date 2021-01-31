@@ -45,6 +45,31 @@ body{
     background-color: rgba(255, 255, 255, 0.02);
 }
 
+/* .name:focus{
+    color:  rgb(187, 187, 187);
+}
+
+.email:focus{
+    color:   rgb(187, 187, 187);
+}
+
+.textarea:focus{
+    color:  rgb(187, 187, 187);
+} */
+
+.name{
+    color:  rgb(187, 187, 187) !important;
+}
+
+.email{
+    color:   rgb(187, 187, 187) !important;
+}
+
+.textarea{
+    color:  rgb(187, 187, 187) !important;
+}
+
+
 /* ---------------------------------------buttons */
 
 .bluebtn{

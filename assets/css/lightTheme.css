@@ -30,6 +30,18 @@ body{
     background-color: rgba(0, 0, 0, 0.02);
 }
 
+.name:focus{
+    color:  rgb(56, 56, 56);
+}
+
+.email:focus{
+    color:  rgb(56, 56, 56);
+}
+
+.textarea:focus{
+    color:  rgb(56, 56, 56);
+}
+
 
 /* ---------------------------------------buttons */
 
