@@ -124,6 +124,7 @@ body{
 
 
 
+
 /* ---------------------------------------imgs */
 
 .callout-container {
@@ -156,4 +157,12 @@ body{
         background-color:#ffffff00 !important;
     }
 }
+
+
+    .secondarybglightbottom{
+        background-color:#ffffff00 !important;
+    }
+
+
+
 

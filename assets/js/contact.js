@@ -10,17 +10,18 @@ function sendMail(form) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
-            $("p", ".response").append("Thanks for contacting us!");
+            debugger;
+             console.log("SUCCESS", response);
+            // $("p", ".response").html(`<p> Thanks for entering your details ${response} </p>`)
             // $("p", ".error").addclass(".error-message");
         },
         
         function(error) {
-            debugger;
+           
             if (error.status === 412) {
-                console.log("hi")
+                console.log("hi");
             // $("p", ".response").append("Please enter a valid Email Address");
-            document.getElementsByClassName("response").innerHTML = "Please enter a valid Email Address"
+            // document.getElementsByClassName("response").innerHTML = "<p>Please enter a valid Email Address</p>";
                 // $("#gh-user-data").html(
                 //     `<h2>No info found for user ${username}</h2>`);
             // } else if(errorResponse ===403) {

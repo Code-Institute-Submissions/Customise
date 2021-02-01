@@ -51,17 +51,7 @@ body{
     background-color: rgba(255, 255, 255, 0.02);
 }
 
-/* .name:focus{
-    color:  rgb(187, 187, 187);
-}
 
-.email:focus{
-    color:   rgb(187, 187, 187);
-}
-
-.textarea:focus{
-    color:  rgb(187, 187, 187);
-} */
 
 .name{
     color:  rgb(187, 187, 187) !important;
@@ -184,3 +174,10 @@ body{
         background-color: transparent !important;
     }
 }
+
+
+
+    .secondarybgdarkbutton{
+        background-color:rgb(17 17 17) !important;
+    }
+

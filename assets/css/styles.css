@@ -115,10 +115,27 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 3;
+    z-index: 2;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
   }
 
+  .appear{
+      display: block !important;
+      z-index: 4 ;
+  }
+
+  .displayNone{
+      display: none;
+  }
+
+  .closefadebtn{
+      z-index: 4 !important;
+  }
+
+  
   .top {
     overflow: hidden;
     position: fixed;
@@ -139,7 +156,7 @@ hr{
       right: 0;
       padding-bottom: 15px;
       padding-right: 40px;
-      z-index: 3;
+      z-index: 5;
 
 
   }
@@ -161,6 +178,7 @@ hr{
     letter-spacing: 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+
 }
 
 .button1 {
@@ -433,9 +451,10 @@ hr{
 
     .displaybuttons{
         display: block;
+
     }
 
-   .bottom{
+    .bottom{
         display: none;
     } 
     
@@ -524,6 +543,7 @@ hr{
     .headformcol{
         text-align: center;
     }
+
 }
 
    
