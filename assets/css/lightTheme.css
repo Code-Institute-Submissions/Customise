@@ -158,10 +158,20 @@ body{
     }
 }
 
+@media (min-width: 200px) {
+    .secondarybglightbottom{
+        background-color:#ffffff !important;
+    }
+}
 
+@media (min-width: 570px) {
     .secondarybglightbottom{
         background-color:#ffffff00 !important;
     }
+}
+
+
+    
 
 
 

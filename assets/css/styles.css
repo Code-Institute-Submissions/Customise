@@ -107,20 +107,7 @@ hr{
 
 
 /* ---------------------------------------general header*/
-.bottom {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
 
-  }
 
   .appear{
       display: block !important;
@@ -257,6 +244,19 @@ hr{
     .displaybuttons{
         display: none;
     }
+
+    .bottom {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    
+    
+      }
 
 
     /* ---------------------------------------about sm */
@@ -453,6 +453,22 @@ hr{
         display: block;
 
     }
+    
+    .bottom {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    
+      }
+    
 
     .bottom{
         display: none;
