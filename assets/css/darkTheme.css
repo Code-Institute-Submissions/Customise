@@ -80,14 +80,14 @@ body{
 }
 
 .redbtn{
-    background-color: #b00020 ;
-    border: solid 2px #b00020;
+    background-color: rgb(251 54 90) ;
+    border: solid 2px rgb(251 54 90);
     color: rgb(0, 0, 0);
 }
 
 .redbtn:hover{
-    border: solid 2px #b00020;
-    color: #b00020;
+    border: solid 2px rgb(251 54 90);
+    color: rgb(251 54 90);
 }
 
 .greenbtn{
@@ -120,7 +120,7 @@ body{
 
 .redbr{
    
-    border: solid 3px #b00020;
+    border: solid 3px rgb(251 54 90);
     color: rgb(37, 37, 37);;
 }
 
