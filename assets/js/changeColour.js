@@ -3,19 +3,20 @@ localStorage.setItem('colour', 'blue');
 
 localStorage.setItem('btncolour', 'bluebtn');
 
-localStorage.setItem('bordercolor', 'bluebr');
+localStorage.setItem('bordercolour', 'bluebr');
 
 // ------------------------------------------------------------ change to red
 
 function changecolorbtnred() {
 
     debugger;
+
     
     let currentColour = "." + localStorage.getItem('colour');
 
     let currentBtnColour = "." + localStorage.getItem('btncolour');
 
-    let currentBrColour = "." + localStorage.getItem('bordercolor');
+    let currentBrColour = "." + localStorage.getItem('bordercolour');
 
     console.log(currentColour, currentBtnColour);
 
@@ -74,7 +75,6 @@ function changecolorbtnred() {
 
 function changecolorbtnblue() {
 
-    debugger;
     
     let currentColour = "." + localStorage.getItem('colour');
 
@@ -139,7 +139,7 @@ function changecolorbtnblue() {
 
 function changecolorbtnpurple() {
 
-    debugger;
+    
     
     let currentColour = "." + localStorage.getItem('colour');
 
@@ -205,6 +205,7 @@ function changecolorbtnpurple() {
 function changecolorbtngreen() {
 
     debugger;
+
     
     let currentColour = "." + localStorage.getItem('colour');
 

@@ -416,11 +416,11 @@ hr{
     }
 
     .green-resp{
-        color:green;
+        color:#03dac6;
     }
 
     .red-resp{
-        color:red;
+        color: rgb(251 54 90);
     }
 
 }
