@@ -5,6 +5,8 @@ const theme = document.querySelector("#theme-link");
 
 
 btn.addEventListener("click", function() {
+
+  debugger;
   
   if (theme.getAttribute("href") == "assets/css/lightTheme.css") {
     
