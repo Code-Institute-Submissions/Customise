@@ -32,6 +32,14 @@ body{
     color: rgb(251 54 90);
 }
 
+.purple{
+    color:  #bb86fc ;
+}
+
+.green{
+    color: #03dac6;
+}
+
 .navbar-toggler-icon{
     color: black !important;
 }
@@ -126,8 +134,27 @@ body{
 }
 
 .mainbtnblue{
-    border-bottom:solid 3px #6200EE;
-    color: rgb(37, 37, 37);
+    background-color: #6200EE ;
+    border: solid 2px #6200EE;
+    color: white;
+}
+
+.mainbtnred{
+    background-color: rgb(251 54 90) ;
+    border: solid 2px rgb(251 54 90);
+    color: white;
+}
+
+.mainbtnpurple{
+    background-color: #bb86fc ;
+    border: solid 2px #bb86fc;
+    color: white;
+}
+
+.mainbtngreen{
+    background-color: #03dac6 ;
+    border: solid 2px #03dac6;
+    color: white;
 }
 
 
