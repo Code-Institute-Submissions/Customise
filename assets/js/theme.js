@@ -19,3 +19,6 @@ btn.addEventListener("click", function() {
   }
 });
 
+// function removebtn() {
+//     document.get
+// }

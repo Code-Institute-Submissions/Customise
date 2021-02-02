@@ -39,9 +39,9 @@
                   </li>
                 </ul>
               </div>
-              <div id="button-right">
+              <!-- <div id="button-right">
                   <button class="bluebtn button button1 colorChange"><i class="fas fa-adjust"></i></button>
-              </div>
+              </div>  -->
             </div>
           </nav>
       </nav>
@@ -54,17 +54,14 @@
       <div class="bottom secondarybglightbottom secondarybgdarkbottom colorNav">
           
             <button class="redbtn spbutton button1"></button>
-            <button class="bluebtn spbutton button1"></button>
+            <button class="btnblue spbutton button1 mainbtnblue" onclick="changecolorbtn()"></button>
             <button class="greenbtn spbutton button1"></button>
             <button class="purplebtn spbutton button1 "></button>
     
       </div>
       <div class="top">
-          
         <button class="bluebtn button button1 colorChange"><i class="fas fa-adjust"></i></button>
-
-  </div>
-    
+      </div>
       <!-- header -->
 
         <div class="container-fluid callout-container">
@@ -212,7 +209,9 @@
                             <input type="text" name="email" class="bluebr formborder email" id="email" placeholder="Email" required><br>
                             <textarea rows="2" name="projectsummary" class="bluebr formborder textarea" id="projectsummary" placeholder="Tell us about your project" required></textarea><br>
                             <button id="submitButton" type="submit" class="bluebtn button button1" >Send</button><br>
+                            <br>
                             <p class="response"></p>
+                            
                             
                         </form>
                     </div>
@@ -241,6 +240,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
     <script src="assets/js/theme.js" ></script>
+    <script src="assets/js/changeColour.js" ></script>
     <script src="assets/js/colour-nav.js" ></script>
     <script src="assets/js/nav-colour.js" ></script>
     <script src="C:\code institute\customise\Customise\assets\js\maps-api.js" ></script>

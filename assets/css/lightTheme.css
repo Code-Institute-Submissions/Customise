@@ -28,6 +28,10 @@ body{
     color: #6200EE ;
 }
 
+.red{
+    color: rgb(251 54 90);
+}
+
 .navbar-toggler-icon{
     color: black !important;
 }
@@ -119,6 +123,11 @@ body{
    
     border: solid 3px #bb86fc;
     color: rgb(37, 37, 37);;
+}
+
+.mainbtnblue{
+    border-bottom:solid 3px #6200EE;
+    color: rgb(37, 37, 37);
 }
 
 
