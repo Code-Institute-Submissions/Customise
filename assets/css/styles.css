@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* ---------------------------------------general */
+html{
+    scroll-behavior: smooth;
+}
+
 *,*:focus,*:hover{
     outline:none !important;
 }
@@ -35,6 +39,18 @@ hr{
     opacity: 1;
     opacity: 1;
     margin: 20px auto;
+}
+
+#about{
+    margin-top: 800px;
+}
+
+#packages{
+    margin-bottom: 300px;
+}
+
+#contact{
+    margin-bottom: 300px;
 }
 
 /* ---------------------------------------general nav*/

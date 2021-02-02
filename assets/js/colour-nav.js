@@ -20,5 +20,6 @@ function closecolorBtn() {
         
         $(".colorNav").removeClass("appear");
     });  
-    console.log("hello")
+
 }
+
