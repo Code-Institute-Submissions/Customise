@@ -1,9 +1,71 @@
+// debugger;
+// if (!localStorage.getItem('colour')){
+    
+//     localStorage.setItem('colour', 'blue');
+// }
 
-localStorage.setItem('colour', 'blue');
 
-localStorage.setItem('btncolour', 'bluebtn');
 
-localStorage.setItem('bordercolour', 'bluebr');
+// // localStorage.setItem('colour', 'blue');
+
+// localStorage.setItem('btncolour', 'bluebtn');
+
+// localStorage.setItem('bordercolour', 'bluebr');
+
+
+let currentColour = "." + localStorage.getItem('colour');
+
+let currentBtnColour = "." + localStorage.getItem('btncolour');
+
+let currentBrColour = "." + localStorage.getItem('bordercolour');
+
+console.log(currentBtnColour)
+
+let findClass = document.querySelectorAll(".blue")
+
+let findBtnClass = document.querySelectorAll(".bluebtn")
+
+let findBrClass = document.querySelectorAll(".bluebr")
+
+console.log(findBtnClass)
+
+for (let el of findClass) {
+
+    let currentColour = localStorage.getItem('colour')
+
+    $(el).removeClass("blue"); $(el).addClass(currentColour);
+    console.log(el)
+
+    console.log(currentColour);
+
+}
+
+for (let el of findBtnClass) {
+
+    let currentBtnColour = localStorage.getItem('btncolour');
+
+    $(el).removeClass("bluebtn"); $(el).addClass(currentBtnColour);
+    console.log(el);
+
+
+}
+
+for (let el of findBrClass) {
+
+    let currentBrColour = localStorage.getItem('bordercolour')
+
+    $(el).removeClass("bluebr"); $(el).addClass(currentBrColour);
+    console.log(el)
+
+    console.log(currentBrColour);
+
+}
+
+
+
+
+console.log(currentColour)
+
 
 // ------------------------------------------------------------ change to red
 
