@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 /* ---------------------------------------general */
 html{
@@ -293,6 +294,14 @@ hr{
         width: 80%;
         margin: auto;
     }
+
+    .descriptionafter{
+        width: 80%;
+        margin: auto;
+        font-family: Fredoka One;
+    }
+
+
 
     .three-key-words{
         margin-top: 100px;

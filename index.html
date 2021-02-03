@@ -46,7 +46,7 @@
           </nav>
       </nav>
 
-       <div class="displaybuttons">
+      <div class="displaybuttons">
         <button class="bluebtn button button1 fadebtn" onclick="colorBtn()">Change colour</button>
         <button class="bluebtn button button1 closefadebtn displayNone" onclick="closecolorBtn()">Close colour selection</button>
       </div> 
@@ -72,7 +72,7 @@
 
         <div class="container-fluid callout-container"> 
             <div class="opaque-overlay">&nbsp;</div>
-            <!-- Callout -->
+
             <section class="callout jumbotron text-center">
                 <h1 class="p-light p-dark jumbotron-header">Want to <span class="blue">"Customise"</span> your website !</h1>
                 <p class=" p-lighter p-darker lead">Click below to contact our team and start a project.</p>
@@ -126,26 +126,26 @@
                     <div  class="box">
                         <h3 class="p-light p-dark">Design</h3>
                         <hr class=" blue center" >
-                        <p class=" p-lighter p-darker description lead">We can create a professional, bespoke website which will promote your business effectively in the online world. </p>
-                        <button class="button button1 bluebtn threekeybuttons">Change Style</button>
+                        <p class=" p-lighter p-darker description lead" id="descone" >We can create a professional, bespoke website which will promote your business effectively in the online world. </p>
+                        <button class="button button1 bluebtn threekeybuttons" onclick="changeFontOne()">Change Style</button>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 ">
                     <div class="box" >
                         <h3 class="p-light p-dark">Modernise</h3>
                         <hr class="blue center" >
-                        <p class="p-lighter p-darker description lead">Have us freshen up your existing website so it's fully responsive and looks great on all phone and desktop device sizes.
+                        <p class="p-lighter p-darker description lead" id="desctwo" >Have us freshen up your existing website so it's fully responsive and looks great on all phone and desktop device sizes.
                         </p>
-                        <button class="button button1 bluebtn threekeybuttons">Change Style</button>
+                        <button class="button button1 bluebtn threekeybuttons"onclick="changeFontTwo()">Change Style</button>
                     </div>
                 </div>
                 <div class="col-md-6 offset-md-3 offset-lg-0 col-lg-4 item">
                     <div class="box" >
                         <h3 class="p-light p-dark">Expose</h3>
                         <hr class="blue center" >
-                        <p class="p-lighter p-darker description lead">Through our optimization and marketing techniques we will ensure your website gets the exposure it deserves.
+                        <p class="p-lighter p-darker description lead" id="descthree">Through our optimization and marketing techniques we will ensure your website gets the exposure it deserves.
                         </p>
-                        <button class="bluebtn button button1 threekeybuttons">Change Style</button>
+                        <button class="bluebtn button button1 threekeybuttons " onclick="changeFontThree()">Change Style</button>
                     </div>
                 </div>
             </div>
@@ -266,6 +266,7 @@
     <script src="assets/js/contactlink.js" ></script>
     <script src="assets/js/colour-nav.js" ></script>
     <script src="assets/js/nav-colour.js" ></script>
+    <script src="assets/js/customise-btns.js" ></script>
     <script src="assets/js/maps-api.js" ></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf12UYkEOC2D6_SYszJJWLzMMjjs0hNDA&map_ids=d4b44cdc72180b83&callback=initMap"></script>
