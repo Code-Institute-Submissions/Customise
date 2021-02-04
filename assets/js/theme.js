@@ -10,9 +10,8 @@ const theme = document.querySelector("#theme-link");
 
 let lsTheme = localStorage.getItem('theme');
 
-if (lsTheme == '') {
+if (lsTheme === null) {
   localStorage.setItem('theme', 'assets/css/light-theme.css');
-
 }
 
 theme.href = localStorage.getItem('theme');
@@ -33,8 +32,6 @@ btn.addEventListener("click", function() {
     localStorage.setItem('theme', 'assets/css/light-theme.css');
 
     theme.href = localStorage.getItem('theme');
-
-    console.log(lsTheme);
 
   }
 });
