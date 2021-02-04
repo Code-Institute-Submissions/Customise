@@ -162,8 +162,7 @@ Interactive Frontend Development Milestone Project
     * all the buttons that link to places on the website send the user there onclick
 
 2 .As a new visitor to the website I want to be able to contact customise about a project and recieve an email of confirmatrion that I contacted them.
-    * After the merch button is clicked the page smooth scrolls down to the merch section where the products are
-    also a clearly labeled merch is easy to find on the navigation at all times
+    * after the user has put in thier information and clicked the send button they will recive a message thanking them for enetering thier details and they will recieve an email from customise like shown bellow.
 
 3. As a new visitor to the website I want to be able to connect with the artist by looking at the about section.
 
