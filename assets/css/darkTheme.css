@@ -179,7 +179,7 @@ body{
 .callout-container {
     height: 100vh;
 
-    background: url("C:/code institute/customise/Customise/assets/img/VECTEEZY_BLACK_BACKGROUND_PS1120.jpg") no-repeat top center;
+    background: url("../assets/img/VECTEEZY_BLACK_BACKGROUND_PS1120.jpg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
