@@ -167,25 +167,23 @@ Interactive Frontend Development Milestone Project
     
    * img of email : https://raw.githubusercontent.com/robertc181/Customise/main/assets/img/customise%20testing%20images/screencapture-mail-google-mail-u-1-2021-02-04-13_57_15.png
     
-3. As a new visitor to the website I want to be able to connect with the artist by looking at the about section.
+3. As a new visitor to the website I want to be able to view where customise is based and see where there situated on the map.
 
-    * A clearly labeled about page is displayed on the nav at all times and title on the about us page.
-    * The about us section goes through DAFT PUNKS past and present in the recent section 
-    * the recent section is also located on the nav and has a title of recent on its page.
+    * In the location section using the google map api I have added a map
+    * The map has clusters which show where customise is based
 
-3. As a new visitor to the website I want to be able to smoothly scroll through the website 
+4. As a new visitor to the website I want to be able to read about customise in thier about section.
 
-    * each button and nav link that locates the user to another part of the website is connect with anchor ID tags
-    * I've set the HTML in the CSS file to scroll-behavior to smooth to allow for the smooth transitions
+    * In the about section there is text explaining what customise is and a button that directs the user to the contact us form
 
-4. As a new visitor to the website I want to be able to press play and view the audio player 
+5. As a new visitor to the website I want to be able to click the Change colour button and be shown the colour selection.
 
-    * After the play button is clicked using JavaScript I created a popup that covers most of the page and allows the user to play the audio 
-    * I've also connected a close button to the popup so that it can be closed easily.
+    * once the change colour button is clicked it opens the colourchange selection buttons
+    * If the close colour change button is clicked the colour selection nav will disapear.
 
-5. As a new visitor to the website I want to be able to be sent to Spotify if the Spotify icon is clicked 
+6. As a new visitor to the website I want to be able to click one of the change colour buttons and customise the website also if I reload the page the website remembers how I left it
 
-    * After the Spotify icon is clicked it locates the user in a new window where they can view the album in Spotify
+    * once one of the colour 
 
 
 6. As a new visitor to the website I want to be able to be linked to the official daft punk shop when I click view under the merch product
