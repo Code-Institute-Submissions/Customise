@@ -71,8 +71,64 @@ Interactive Frontend Development Milestone Project
     * Phone size: https://github.com/robertc181/Customise/blob/main/assets/wireframe/phone-size.jpg
        
     * Phone size:  https://github.com/robertc181/Customise/blob/main/assets/wireframe/phone-size-2.jpg
+    
+5. fonts
+
+    * use of Montserrat and Expletus Sans
+    * all from Google fonts
+    
+6. colours
+
+    * Ive mainly used the colour shades of white and black for both dark and light mode then for secondery colours I used green purple red and plue which all look good with both light and dark colours
+    
+7. styling
+
+    * In this website I have tried to create a plain design that looks good in both dark and light modes
+    * also using a simplistic designs so that they are easily customiseable.
 
 ## Features
+
+1. Navigation changes from transparent to colour.
+ 
+    * this allows for a nice look on the header of the page and when scrolled there is no text flowing over eachother.
+    
+2. When you fill out the contact form you recieve a confimation email to the email that You filled in.
+
+    * allows the user to recive feedback about thier project.
+
+3. In the location section of the website you can use the map to see where customise is located and some of its hubs around the world.
+
+    * this allows the user to see where customimse is based and allow them to connect with the business more.
+
+4. In the about section the user can read about customise and about the company. 
+
+    * this allows the customer to see what customise is all about and what they do.
+
+5. When the Change colour button is clicked it opens up the colour selection.
+
+    * This creates a nav that the user can use to change the style of the secondary colours across the website also a close solour section button closes the colour selection.
+
+6. When any of the colour selection buttons are clicked the page replaces all the existing secondary colours with the newly clicked colours
+
+    * this means that the user can customise the page as they want 
+
+7. When the toggle button bellow the nav is clicked the theme of the page changes from light to dark mode
+
+    * allows the user more customisation
+
+8. If the contact form is filled in incorectly the user is notified and asked to fill it out again  
+
+    * provides feedback to the user
+
+9. If the contact form is filled in correctly the user is notified and thanked 
+
+    * provides feedback to the user
+    
+10. When any nav links or buttons on the page are clicked the website smoothly takes the user to that section of the page
+
+    * no confusion of placement on the website 
+    
+
 
 ## Technologies
 
