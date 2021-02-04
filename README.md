@@ -187,11 +187,16 @@ Interactive Frontend Development Milestone Project
 
     * once one of the colour button has been clicked the website changes all the buttons text and borders that have a certian class and replace it with a nes one also updating the local storage.
     * when the page is reloaded the set colour doesnt change and is remembered
+   
+   * img of change colour button & colour selection nav
+    https://raw.githubusercontent.com/robertc181/Customise/main/assets/img/customise%20testing%20images/screencapture-file-C-code-institute-customise-Customise-index-html-2021-02-04-13_47_04.png
 
 6. As a new visitor to the website I want to be able to switch from dark to light mode with ease and when I reload the page the website remembers what mode I was in.
 
     * When the toggle mode button is clicked the theme of the page changes to dark or light mode
     * also whichever theme was toggled last will be left there and rememberd in the local storage when the page is reloaded
+    
+  * img of toggle mode button  https://raw.githubusercontent.com/robertc181/Customise/main/assets/img/customise%20testing%20images/screencapture-file-C-code-institute-customise-Customise-index-html-2021-02-04-13_46_20.png
 
 7. As a new visitor to the website I want to be able to recive feedback if I incorrectly or correctly fill in the contact form.
 
@@ -208,6 +213,23 @@ Interactive Frontend Development Milestone Project
     * In all size modes the website is asthetically pleasing and functional all links and button go to where they are supposed to go and any functionality is responsive and works in all size modes.
 
 ## Deployment
+
+
+1. Firstly to create this project I created a repo in git hub called Customise and added my readme.
+
+2. Next I opened up visual studio code where I created a file with assets css js and html inside.
+
+3. To connect my local file with my githup repo I went to my console and firstly used (cd) to locate my local file
+
+4. Next I used git clone and my repo link from git hup to clone my repo to my local file 
+
+5. After this I started coding and after I was happy with my progress I use git commit -m "comment" and this was my initial commit.
+
+6. After I pushed the code up to github
+
+7. To deploy my project I went into settings in github and located github pages 
+
+8. I then selected the master and created the hosted site.
 
 ## Fixes
 
