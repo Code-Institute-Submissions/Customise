@@ -38,7 +38,7 @@ Interactive Frontend Development Milestone Project
 
 * The main goal for the business is to direct the user to the contact section where they can pick a package and get in touch with a member of staff at Customize and organize creating a website togeather. 
 
-* client stories
+3. client stories
 
     1. As a new visitor to the website I want to navigate the site with ease and no confusion.
 
