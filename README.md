@@ -269,9 +269,9 @@ Interactive Frontend Development Milestone Project
     
     * to fix this I went to stack overflow and looked up : test if localstorage key exists
     
-    * this let me to find that I was incorrectly setting my local storage at the start
+    * this let me to find that I was incorrectly checking my local storage at the start
     
-    * initially : if(isTheme == "") then set it to white theme css link
+    * initially : if(isTheme == '') then set it to white theme css link
     
     * now : if(isTheme === null) then set it to white theme css link
 
