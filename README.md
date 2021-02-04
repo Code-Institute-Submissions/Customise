@@ -59,6 +59,8 @@ Interactive Frontend Development Milestone Project
     9. As a new visitor to the website I want to be able to recive feedback if I incorrectly or correctly fill in the contact form.
     
     10. As a new visitor to the website I want to be able to use the nav and any contact buttons that direct me to places on the website.
+    
+    11. As a new visitor to the website I want to be able to view the website on phone desktop and tablet
 
 4. Wireframes
 
@@ -183,19 +185,59 @@ Interactive Frontend Development Milestone Project
 
 6. As a new visitor to the website I want to be able to click one of the change colour buttons and customise the website also if I reload the page the website remembers how I left it
 
-    * once one of the colour 
+    * once one of the colour button has been clicked the website changes all the buttons text and borders that have a certian class and replace it with a nes one also updating the local storage.
+    * when the page is reloaded the set colour doesnt change and is remembered
 
+6. As a new visitor to the website I want to be able to switch from dark to light mode with ease and when I reload the page the website remembers what mode I was in.
 
-6. As a new visitor to the website I want to be able to be linked to the official daft punk shop when I click view under the merch product
+    * When the toggle mode button is clicked the theme of the page changes to dark or light mode
+    * also whichever theme was toggled last will be left there and rememberd in the local storage when the page is reloaded
 
-    * after the view button is clicked the user is brought to the daft punk website 
-    * also the user is brought to the exact product which they clicked to view on in the website.
+7. As a new visitor to the website I want to be able to recive feedback if I incorrectly or correctly fill in the contact form.
 
-7. As a new visitor to the website I want to be able to link to each social media in the footer.
+    * If the contact form is filled in incorectly the user is notified with feedback telling them to input the correct information
+    * If the contact form is filled in corectly the user is notified with feedback telling them thankd
+    s for filling out the form and recives an email from customise
+    
+8. As a new visitor to the website I want to be able to use the nav and any contact buttons that direct me to places on the website.
 
-    * after any of the font awesome icons are clicked the user is sent to the daft punk social media account in a new window.
+    * When any of the nav links or buttons accross the website are clicked the website brings the user to the desired location that they asked the website to bring them to, without any confusion or fast movement.
+    
+9. As a new visitor to the website I want to be able to view the website on phone desktop and tablet
+
+    * In all size modes the website is asthetically pleasing and functional all links and button go to where they are supposed to go and any functionality is responsive and works in all size modes.
 
 ## Deployment
 
 ## Fixes
+
+1 fix one 
+
+   * Initialy the website was set upo with a diferent nav but afeter i added the header the nav would not retract and show all of its content in the phone and tablet size so i had to restart and redo the nav to fit with the header as it had buttons and a bottom and top navbar that had to have a position of fixed.
+   
+  * code change can be found in commit : 974ed00b3c519186b9ae655e9c92c6cd715acc2a
+  
+## Fixes due to diference between deployment and local stage
+  
+2 fix two
+
+   * throughout the project I struggled to get my images to show due to incorrect relative paths but by the end i realised and found out what I was doing wrong.
+   * also I found that my paths would work when shown locally but after i deployed my project they would not show
+   
+   firstly I was using C./then my link to that pic
+   
+   but i learned that ../then my link was correct,  and displayed my img
+   
+3 fix three
+
+   * When I was ready to deplay i was happy with my javascript but then once i deployed some of my local storage features were no longer working so i went to my mentor who helped me create better js code that with less code and fuss created better functionality to my colour changer
+   
+  * in commit 06f35ca6b43e5e1b17eac4d11c27ae012e11b5cb
+    * Was where I changed my previouse long code to a shorter better code with the help of my mentor
+    
+  * now I was using my parameters better and creating less code to do the same thing while saving all of it to the local storage
+  
+ 4 fix four
+  
+  * after I had deployed the site i realised that my Jquery was not loading so i created a lib folder and downloaded Jquery so it didnt use the cdn but used the jQuery library downloaded on my project
 
