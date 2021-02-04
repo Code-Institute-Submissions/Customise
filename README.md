@@ -161,9 +161,12 @@ Interactive Frontend Development Milestone Project
     * The logo image always leads back to the front page 
     * all the buttons that link to places on the website send the user there onclick
 
-2 .As a new visitor to the website I want to be able to contact customise about a project and recieve an email of confirmatrion that I contacted them.
+2. As a new visitor to the website I want to be able to contact customise about a project and recieve an email of confirmatrion that I contacted them.
     * after the user has put in thier information and clicked the send button they will recive a message thanking them for enetering thier details and they will recieve an email from customise like shown bellow.
-
+    * img of form : https://raw.githubusercontent.com/robertc181/Customise/main/assets/img/customise%20testing%20images/screencapture-file-C-code-institute-customise-Customise-index-html-2021-02-04-13_56_15.png
+    
+   * img of email : https://raw.githubusercontent.com/robertc181/Customise/main/assets/img/customise%20testing%20images/screencapture-mail-google-mail-u-1-2021-02-04-13_57_15.png
+    
 3. As a new visitor to the website I want to be able to connect with the artist by looking at the about section.
 
     * A clearly labeled about page is displayed on the nav at all times and title on the about us page.
