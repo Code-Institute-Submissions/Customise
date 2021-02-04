@@ -53,10 +53,10 @@
 
       <div class="bottom secondarybglightbottom secondarybgdarkbottom colorNav">
           
-            <button class="mainbtnred spbutton button1" onclick="changecolorbtnred()"></button>
-            <button class="mainbtnblue spbutton button1 " onclick="changecolorbtnblue()"></button>
-            <button class="mainbtnpurple spbutton button1" onclick="changecolorbtnpurple()"></button>
-            <button class="mainbtngreen spbutton button1" onclick="changecolorbtngreen()"></button>
+            <button class="mainbtnred spbutton button1" onclick="changeColor('red') "></button>
+            <button class="mainbtnblue spbutton button1 " onclick="changeColor('blue') "></button>
+            <button class="mainbtnpurple spbutton button1" onclick="changeColor('purple') "></button>
+            <button class="mainbtngreen spbutton button1" onclick="changeColor('green') "></button>
     
       </div>
       <div class="top">
@@ -228,7 +228,7 @@
                     <div class="col formcol">
                         <form class="formmain" id="form" onsubmit="return sendMail(this);" method="POST">
                             <input type="text" name="name" class="bluebr formborder name" id="name" placeholder="Full name" required><br>
-                            <input type="text" name="email" class="bluebr formborder email" id="email" placeholder="Email" required><br>
+                            <input type="email" name="email" class="bluebr formborder email" id="email" placeholder="Email" required><br>
                             <textarea rows="2" name="projectsummary" class="bluebr formborder textarea" id="projectsummary" placeholder="Tell us about your project" required></textarea><br>
                             <button id="submitButton" type="submit" class="bluebtn button button1" >Send</button><br>
                             <br>
