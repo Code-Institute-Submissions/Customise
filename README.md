@@ -233,7 +233,7 @@ Interactive Frontend Development Milestone Project
 
 ## Fixes
 
-1 fix one 
+1. fix one 
 
    * Initialy the website was set upo with a diferent nav but afeter i added the header the nav would not retract and show all of its content in the phone and tablet size so i had to restart and redo the nav to fit with the header as it had buttons and a bottom and top navbar that had to have a position of fixed.
    
@@ -241,7 +241,7 @@ Interactive Frontend Development Milestone Project
   
 ## Fixes due to diference between deployment and local stage
   
-2 fix two
+2. fix two
 
    * throughout the project I struggled to get my images to show due to incorrect relative paths but by the end i realised and found out what I was doing wrong.
    * also I found that my paths would work when shown locally but after i deployed my project they would not show
@@ -250,7 +250,7 @@ Interactive Frontend Development Milestone Project
    
    but i learned that ../then my link was correct,  and displayed my img
    
-3 fix three
+3. fix three
 
    * When I was ready to deplay i was happy with my javascript but then once i deployed some of my local storage features were no longer working so i went to my mentor who helped me create better js code that with less code and fuss created better functionality to my colour changer
    
@@ -259,7 +259,19 @@ Interactive Frontend Development Milestone Project
     
   * now I was using my parameters better and creating less code to do the same thing while saving all of it to the local storage
   
- 4 fix four
+ 4. fix four
   
   * after I had deployed the site i realised that my Jquery was not loading so i created a lib folder and downloaded Jquery so it didnt use the cdn but used the jQuery library downloaded on my project
+  
+ 5. Bug fix to js in Theme.js
+ 
+    * After i had deployed the site on my first load i realised that the light and dark theme css fils where not loading but when i clicked the theme button the styles would then kick in nd show on the page 
+    
+    * to fix this I went to stack overflow and looked up : test if localstorage key exists
+    
+    * this let me to find that I was incorrectly setting my local storage at the start
+    
+    * initially : if(isTheme == "") then set it to white theme css link
+    
+    * now : if(isTheme === null) then set it to white theme css link
 
